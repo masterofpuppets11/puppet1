@@ -1,6 +1,4 @@
-rm(list = ls())
-setwd(...)  # set directory
-
+getwd()
 
 SP500 <- read.table("DSP500.csv",header = T, sep=",")
 
